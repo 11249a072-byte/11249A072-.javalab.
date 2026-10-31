@@ -1,0 +1,37 @@
+Aim:
+To write a Java program to declare and initialize different types of variables and display their values.
+
+Algorithm:
+1. Start the program.
+2. Declare variables of different data types such as int, float, char, and String.
+3. Assign values to the variables.
+4. Display the values using System.out.println().
+5. Stop the program.
+
+Program:
+class Variables {
+    public static void main(String[] args) {
+        int age = 20;
+        float marks = 85.5f;
+        char grade = 'A';
+        String name = "Sri";
+        boolean result = true;
+
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Marks: " + marks);
+        System.out.println("Grade: " + grade);
+        System.out.println("Result: " + result);
+    }
+}
+
+
+Output:
+Name: Sri
+Age: 20
+Marks: 85.5
+Grade: A
+Result: true
+
+Result:
+Thus, the Java program to declare, initialize, and display different types of variables was executed successfully.
