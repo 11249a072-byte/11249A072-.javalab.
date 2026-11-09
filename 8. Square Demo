@@ -1,0 +1,19 @@
+Aim: Find the square of a number using a method.
+
+Algorithm: Start
+pass number to square method
+calculate n*n
+display
+stop.
+
+Program:
+
+class SquareDemo {
+    static int square(int n) { return n*n; }
+    public static void main(String[] args) {
+        System.out.println("Square = " + square(5));
+    }
+}
+
+Result: Square = 25
+
