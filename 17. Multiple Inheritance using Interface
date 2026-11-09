@@ -1,0 +1,24 @@
+Aim: Achieve multiple inheritance using two interfaces.
+
+Algorithm: Start
+declare two interfaces
+implement both
+call methods
+stop.
+
+Program:
+
+interface A { void first(); }
+interface B { void second(); }
+class Demo implements A, B {
+    public void first(){System.out.println("Interface A");}
+    public void second(){System.out.println("Interface B");}
+}
+class MultipleInterface {
+    public static void main(String[] args) {
+        Demo d=new Demo(); d.first(); d.second();
+    }
+}
+
+Result: Interface A and Interface B
+
