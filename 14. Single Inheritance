@@ -1,0 +1,24 @@
+Aim: Demonstrate single inheritance.
+
+Algorithm: Start
+create parent and child classes
+inherit method
+call it
+stop.
+
+Program:
+
+class Animal {
+    void eat() { System.out.println("Animal eats"); }
+}
+class Dog extends Animal {
+    void bark() { System.out.println("Dog barks"); }
+}
+class SingleInheritance {
+    public static void main(String[] args) {
+        Dog d = new Dog(); d.eat(); d.bark();
+    }
+}
+
+Result: Animal eats; Dog barks
+
