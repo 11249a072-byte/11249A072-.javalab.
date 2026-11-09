@@ -1,0 +1,21 @@
+Aim: Demonstrate an array with a loop and conditional statement.
+
+Algorithm: Start
+create array
+loop through elements check even/odd
+print
+stop.
+
+Program:
+
+class ArrayControl {
+    public static void main(String[] args) {
+        int[] a = {2, 5, 8, 11};
+        for (int n : a) {
+            if (n % 2 == 0) System.out.println(n + " is even");
+            else System.out.println(n + " is odd");
+        }
+    }
+}
+
+Result: 2 and 8 are even; 5 and 11 are odd.
