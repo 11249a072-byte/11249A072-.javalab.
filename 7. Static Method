@@ -1,0 +1,20 @@
+Aim: Demonstrate calling a static method without creating an object.
+
+Algorithm: Start 
+define static method
+call it from main
+stop.
+
+Program:
+
+class StaticDemo {
+    static void display() {
+        System.out.println("Static method called");
+    }
+    public static void main(String[] args) {
+        display();
+    }
+}
+
+Result: Static method called
+
