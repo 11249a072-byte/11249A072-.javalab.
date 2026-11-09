@@ -1,0 +1,18 @@
+Aim: Find the largest element in an array.
+
+Algorithm: Start; assume first element is largest; compare remaining elements; print largest; stop.
+
+Program:
+
+class LargestArray {
+    public static void main(String[] args) {
+        int[] a = {12, 45, 7, 31, 19};
+        int max = a[0];
+        for (int i=1; i<a.length; i++)
+            if (a[i] > max) max = a[i];
+        System.out.println("Largest = " + max);
+    }
+}
+
+Result: Largest = 45
+
