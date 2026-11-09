@@ -1,0 +1,17 @@
+Aim: Display array elements using a loop.
+
+Algorithm: Start
+initialize array
+traverse and print
+stop.
+
+Program:
+
+class ArrayDemo {
+    public static void main(String[] args) {
+        int[] a = {10, 20, 30, 40};
+        for (int x : a) System.out.println(x);
+    }
+}
+
+Result: 10, 20, 30 and 40 are displayed.
