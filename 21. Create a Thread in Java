@@ -1,0 +1,21 @@
+Aim: Create and run a thread by extending Thread.
+
+Algorithm: Start
+extend Thread
+override run
+start thread
+stop.
+
+Program:
+
+class MyThread extends Thread {
+    public void run(){System.out.println("Thread is running");}
+}
+class ThreadDemo {
+    public static void main(String[] args) {
+        MyThread t=new MyThread(); t.start();
+    }
+}
+
+Result: Thread is running
+
