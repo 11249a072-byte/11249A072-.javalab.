@@ -1,0 +1,24 @@
+Aim: Demonstrate commonly used String methods.
+
+Algorithm: Start
+create String
+call length, charAt, substring, toUpperCase, equals
+print
+stop.
+
+Program:
+
+class StringDemo {
+    public static void main(String[] args) {
+        String s = "Java Programming";
+        System.out.println("Length: " + s.length());
+        System.out.println("Character: " + s.charAt(0));
+        System.out.println("Substring: " + s.substring(5));
+        System.out.println("Upper: " + s.toUpperCase());
+        System.out.println("Replace: " + s.replace("Java", "Python"));
+        System.out.println("Equals: " + s.equals("Java Programming"));
+    }
+}
+
+Result: String length, character, substring, uppercase, replacement and equality are displayed.
+
