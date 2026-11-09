@@ -1,0 +1,21 @@
+Aim: Declare and display different types of variables.
+
+Algorithm: Start; declare int, double, char and String variables; print them; stop.
+
+Program:
+
+class VariablesDemo {
+    public static void main(String[] args) {
+        int age = 20;
+        double mark = 89.5;
+        char grade = 'A';
+        String name = "Ravi";
+        System.out.println("Name: " + name);
+        System.out.println("Age: " + age);
+        System.out.println("Mark: " + mark);
+        System.out.println("Grade: " + grade);
+    }
+}
+
+Result: Variables are displayed: Ravi, 20, 89.5 and A.
+
