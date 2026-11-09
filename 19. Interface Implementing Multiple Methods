@@ -1,0 +1,25 @@
+Aim: Implement multiple methods declared in an interface.
+
+Algorithm: Start
+declare interface methods
+implement all
+invoke
+stop.
+
+Program:
+
+interface Shape {
+    void draw();
+    void color();
+}
+class Circle implements Shape {
+    public void draw(){System.out.println("Drawing circle");}
+    public void color(){System.out.println("Red");}
+}
+class InterfaceDemo {
+    public static void main(String[] args) {
+        Circle c=new Circle(); c.draw(); c.color();
+    }
+}
+
+Result: Drawing circle; Red
