@@ -1,0 +1,24 @@
+Aim: Run two threads concurrently.
+
+Algorithm: Start
+define two Thread classes
+start both
+stop.
+
+Program:
+
+class Task extends Thread {
+    String msg;
+    Task(String m){msg=m;}
+    public void run(){
+        for(int i=1;i<=3;i++) System.out.println(msg+" "+i);
+    }
+}
+class MultiThreadDemo {
+    public static void main(String[] args) {
+        new Task("Thread A").start();
+        new Task("Thread B").start();
+    }
+}
+
+Result: Both threads print their messages three times; order may vary.
