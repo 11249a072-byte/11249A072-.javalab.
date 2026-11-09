@@ -1,0 +1,21 @@
+Aim: Demonstrate two child classes inheriting one parent.
+
+Algorithm: Start
+define parent and two children
+call methods
+stop.
+
+Program:
+
+class Vehicle { void run(){System.out.println("Vehicle");} }
+class Car extends Vehicle { void car(){System.out.println("Car");} }
+class Bike extends Vehicle { void bike(){System.out.println("Bike");} }
+class Hierarchical {
+    public static void main(String[] args) {
+        Car c=new Car(); c.run(); c.car();
+        Bike b=new Bike(); b.run(); b.bike();
+    }
+}
+
+Result: Vehicle, Car, Vehicle and Bike are displayed.
+
