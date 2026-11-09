@@ -1,0 +1,17 @@
+Aim: Write and execute a basic Java application.
+
+Algorithm: Start
+define class and main method
+print a message
+stop.
+
+Program:
+
+class SimpleApp {
+    public static void main(String[] args) {
+        System.out.println("Welcome to Java");
+    }
+}
+
+Result: Welcome to Java
+
