@@ -1,0 +1,25 @@
+Aim: Demonstrate hybrid inheritance using interfaces and a class.
+
+Algorithm: Start
+define interface
+extend another interface
+implement
+call methods
+stop.
+
+Program:
+
+interface Printable { void print(); }
+interface Showable extends Printable { void show(); }
+class Hybrid implements Showable {
+    public void print(){System.out.println("Print");}
+    public void show(){System.out.println("Show");}
+}
+class HybridDemo {
+    public static void main(String[] args) {
+        Hybrid h=new Hybrid(); h.print(); h.show();
+    }
+}
+
+Result: Print and Show
+
