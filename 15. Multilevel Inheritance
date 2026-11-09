@@ -1,0 +1,19 @@
+Aim: Demonstrate multilevel inheritance.
+
+Algorithm: Start
+create three-level classes
+call inherited methods
+stop.
+
+Program:
+
+class A { void one(){System.out.println("A");} }
+class B extends A { void two(){System.out.println("B");} }
+class C extends B { void three(){System.out.println("C");} }
+class Multilevel {
+    public static void main(String[] args) {
+        C obj=new C(); obj.one(); obj.two(); obj.three();
+    }
+}
+
+Result: A, B and C are displayed
