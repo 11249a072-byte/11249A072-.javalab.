@@ -1,0 +1,18 @@
+Aim: Demonstrate a final method that cannot be overridden.
+
+Algorithm: Start
+define parent class final method
+call through child object
+stop.
+
+Program:
+
+class Parent {
+    final void show() { System.out.println("Final method"); }
+}
+class Child extends Parent { }
+class FinalMethodDemo {
+    public static void main(String[] args) { new Child().show(); }
+}
+
+Result: Final method
