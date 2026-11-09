@@ -1,0 +1,21 @@
+Aim: Demonstrate arithmetic, relational and logical operators.
+
+Algorithm: Start; initialize two numbers; perform operations; print results; stop.
+
+Program:
+
+class OperatorsDemo {
+    public static void main(String[] args) {
+        int a = 10, b = 3;
+        System.out.println("Add = " + (a+b));
+        System.out.println("Subtract = " + (a-b));
+        System.out.println("Multiply = " + (a*b));
+        System.out.println("Divide = " + (a/b));
+        System.out.println("Remainder = " + (a%b));
+        System.out.println("a>b: " + (a>b));
+        System.out.println("Logical: " + (a>b && b>0));
+    }
+}
+
+Result: Addition 13, subtraction 7, multiplication 30, division 3, remainder 1; relational/logical results are true.
+
