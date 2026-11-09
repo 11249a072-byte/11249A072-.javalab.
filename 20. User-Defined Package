@@ -1,0 +1,25 @@
+Aim: Create and use a user-defined package.
+
+Algorithm: Start
+create package folder 
+compile package class
+import and use it
+stop.
+
+Program:
+
+// Save as pack/Message.java
+package pack;
+public class Message {
+    public void show(){System.out.println("User package");}
+}
+// Save separately as PackageDemo.java
+import pack.Message;
+class PackageDemo {
+    public static void main(String[] args) {
+        new Message().show();
+    }
+}
+
+Result: User package. Compile from the parent folder: javac pack/Message.java PackageDemo.java; then java PackageDemo.
+
