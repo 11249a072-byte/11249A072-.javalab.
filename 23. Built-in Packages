@@ -1,0 +1,21 @@
+Aim: Use a built-in Java package.
+
+Algorithm: Start
+import java.util
+create ArrayList
+add and display values
+stop.
+
+Program:
+
+import java.util.ArrayList;
+class BuiltinPackage {
+    public static void main(String[] args) {
+        ArrayList<String> list=new ArrayList<>();
+        list.add("Java"); list.add("Python");
+        System.out.println(list);
+    }
+}
+
+Result:  [Java, Python]
+
